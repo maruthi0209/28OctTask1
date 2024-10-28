@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body::before {
+    position: absolute;
+    top:10%;
+    left: 20%;
+    display: block;
+    width: 50%;
+    height: 20%;
+    content: " ";
+    background-color: orangered;
+}
+
+body::after {
+    content: " ";
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    display: block;
+    width: 50%;
+    height: 20%;
+}
